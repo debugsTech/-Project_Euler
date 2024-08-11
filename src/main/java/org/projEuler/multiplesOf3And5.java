@@ -9,8 +9,9 @@ public class multiplesOf3And5 {
     public static void main(String[] args0) {
         int output = 0;
         for (int i = 1; i <= 999; i++) {
-            if (i % 3 == 0 || i % 5 ==0);
+            if (i % 3 == 0 || i % 5 ==0) {
                 output += i;
+            }
         }
         System.out.println(output);
     }
